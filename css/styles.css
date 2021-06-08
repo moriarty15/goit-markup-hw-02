@@ -19,6 +19,7 @@
 
   color: var(--title-text-color);
 }
+
 /* стилизация заголовков, кроме h1 по цвету и шрифту */
 .side-nav a,
 h2,
@@ -132,7 +133,8 @@ h1 {
 }
 
 /* стилизация footer */
-.address {
+.address,
+.footer {
   color: var(--second-text-color);
   background-color: var(--second-back-color);
 }
