@@ -6,6 +6,7 @@
   --accent-color: #2196f3;
   --second-back-color: #2f303a;
   --contacts-color: rgba(255, 255, 255, 0.6);
+  --team-back-color: #f5f4fa;
 }
 /* стилизация header и заголовков */
 
@@ -61,6 +62,10 @@ h6 {
 .contacts a:active {
   color: var(--accent-color);
 }
+/* ссылка текущей страницы будет выделяться*/
+.side-nav .current {
+  color: var(--accent-color);
+}
 .auth-nav a {
   color: var(--primary-text-color);
 }
@@ -74,10 +79,14 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+/* стилизация фона hero и footer */
+.hero-section {
+  background-color: var(--second-back-color);
+}
+
 /* стилизация заголовка h1 */
 h1 {
   color: var(--second-text-color);
-  background-color: var(--second-back-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -109,24 +118,33 @@ h1 {
   list-style: none;
 }
 /* стилизация деятельности */
-.job h2 {
+.job li {
+  list-style: none;
+}
+.second-font {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
-.job li {
+/* стилизация команды */
+/* стилизация фона */
+.team {
+  background-color: var(--team-back-color);
+}
+.team li {
   list-style: none;
 }
+
 /* стилизация имён участников команды */
-.team h3 {
+.teammate h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 /* стилизация должностей участников команды */
-.team p {
+.teammate p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
