@@ -168,10 +168,6 @@ h1 {
   font-style: normal;
   list-style: none;
 }
-/* стилизация Portfolio
- #F5F4FA основной цвет фона кнопок
- #2196F3 цвет фона наведение
- */
 
 .portfolio-page p {
   font-size: 16px;
@@ -193,17 +189,17 @@ h1 {
   cursor: pointer;
   font-family: Roboto, sans-serif;
 
-  background-color: #f5f4fa;
+  background-color: var(--team-back-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .filter-button:hover,
 .filter-button:focus,
 .filter-button:active {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
 }
